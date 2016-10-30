@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: inline-block;
+}
+
+.nav-bar-container {
+    /* Color de fondo del Nav-bar */
+    background-color: darkseagreen;
+    width: 175px;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.nav-container-menu {
+
+    background-color: red;
+    justify-content: center;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nav-container-logo {
+    background-color: purple;
+    width: 175px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.nav-item {
+    height: 10%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    background-color: orange;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 75%;
+    margin: 1em;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+    justify-content: space-around;
+    background-color: #0097A7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-self: center;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.title {
+    align-self: flex-start;
+}
+
+
